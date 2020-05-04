@@ -1,10 +1,8 @@
 module Types
   class QueryType < Types::BaseObject
-    field :todos, [Types::TodoType], null: false
-
-    field :todo, Types::TodoType, null: false
-      argument :id, ID, required: true
-    end
+    field :todos,
+          [Types::TodoType],
+          null: false
 
     def todos
       Todo.all

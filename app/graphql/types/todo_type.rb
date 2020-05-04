@@ -1,6 +1,7 @@
-class Types::TodoType < Types::BaseObject
+module Types
+  class TodoType < Types::BaseObject
     graphql_name 'TodoType'
-
-    field :id, ID, null: false
-    field :title, String, null: false
+    field :id, ID, null: true
+    field :title, String, null: true
+  end
 end
