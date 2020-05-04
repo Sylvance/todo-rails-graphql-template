@@ -1,24 +1,22 @@
-# README
+# Todo-rails-graphql-template
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+- `gem bundler install`
+- `bundle install`
+- `rails db:create`
+- `rails db:migrate`
 
-* Ruby version
+## Running the server
 
-* System dependencies
+- `rails s`
 
-* Configuration
+## Graphiql UI
 
-* Database creation
+View it on the url:
+`http://localhost/3000/graphiql`
 
-* Database initialization
+## Contributors
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Sylvance Kerandi
+- Hellen Muchee
